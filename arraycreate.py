@@ -1,0 +1,10 @@
+import numpy as np
+zerodim=np.array(12)
+onedim=np.array([1,2])
+twodim=np.array([[3,4],[5,6]])
+print(zerodim)
+print(onedim)
+print(twodim)
+print(zerodim.dtype)
+print(onedim.ndim)
+print(twodim.ndim)
